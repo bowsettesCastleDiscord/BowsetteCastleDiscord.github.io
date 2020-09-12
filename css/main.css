@@ -1,7 +1,7 @@
 /* presets cancellation */
 
 body {
-    margin:0;
+    margin: 0;
 }
 
 /* imports */
@@ -11,10 +11,72 @@ body {
 /* Divisions */
 
 .header {
+    height: 150px;
+    background-color: #5f5f5f;
+    border-bottom: 2px #a9a9a9;
+}
+
+.name {
+
+}
+
+.BowsetteTitle {
+
+}
+
+.subtext {
+
+}
+
+.sitedesc {
 
 }
 
 .sitebody {
+
+}
+
+.sidebar {
+
+}
+
+.menubutton {
+
+}
+
+.menutext {
+
+}
+
+.article {
+
+}
+
+.titlebox {
+
+}
+
+.title {
+
+}
+
+.textbody {
+
+}
+
+.paragraph {
+
+}
+
+.quote {
+
+}
+
+.section1 {
+
+}
+
+.section2 {
 
 }
 
