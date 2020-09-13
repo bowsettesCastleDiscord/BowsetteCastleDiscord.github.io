@@ -4,51 +4,82 @@ body {
     margin: 0;
 }
 
-/* imports */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
-
 /* Divisions */
 
 .header {
-    height: 150px;
-    background-color: #5f5f5f;
-    border-bottom: 2px #a9a9a9;
+    height: auto;
+    width: 100%;
+    background-color: #7289DA;
+    display: table;
 }
 
 .name {
-
+    padding: 0;
 }
 
 .BowsetteTitle {
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 15px 0px 5px 15px;
 }
 
 .subtext {
-
+    margin: 5px 0px 15px 15px;
+    padding: 0;
 }
 
-.sitedesc {
-
+.BowsetteDesc {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0px;
 }
 
 .sitebody {
 
 }
 
-.sidebar {
-
+.menu {
+    height: auto;
+    width: 100%;
+    background-color: #23272A;
+    display: table;
 }
 
 .menubutton {
+    margin: 5px 5px;
+    padding: 0px 3px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    float: left;
+}
 
+.menubutton:hover {
+    background-color: #FFFFFF;
+    color: #23272A;
 }
 
 .menutext {
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin: 0px;
 }
 
-.article {
+.articles {
+    background-color: #FFFF00;
+    height: fill;
+    width: 80%;
+    margin: 0px 10%;
+    display: table;
+}
+
+.articlebox {
 
 }
 
