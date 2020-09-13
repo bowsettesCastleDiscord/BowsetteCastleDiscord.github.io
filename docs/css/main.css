@@ -1,10 +1,7 @@
-/* presets cancellation */
-
 body {
+    background-color: #2C2F33;
     margin: 0;
 }
-
-/* Divisions */
 
 .header {
     height: auto;
@@ -39,10 +36,6 @@ body {
     margin: 0px;
 }
 
-.sitebody {
-
-}
-
 .menu {
     height: auto;
     width: 100%;
@@ -51,12 +44,13 @@ body {
 }
 
 .menubutton {
-    margin: 5px 5px;
+    margin: 5px;
     padding: 0px 3px;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     color: #FFFFFF;
     float: left;
+    text-decoration: none;
 }
 
 .menubutton:hover {
@@ -64,16 +58,22 @@ body {
     color: #23272A;
 }
 
+.menubutton:active {
+    border: 1px solid #7289DA;
+    background-color: #7289DA;
+    color: #FFFFFF;
+}
+
 .menutext {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 20px;
-    margin: 0px;
+    margin: 2px;
 }
 
 .articles {
     background-color: #FFFF00;
-    height: fill;
+    height: 100%;
     width: 80%;
     margin: 0px 10%;
     display: table;
@@ -111,4 +111,17 @@ body {
 
 }
 
-/* Titles & Sections */
+::-webkit-scrollbar {
+    width: 10px;
+    border: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7289DA;
+    border-radius: 5px;
+    border: 0;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
