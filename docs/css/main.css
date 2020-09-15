@@ -75,12 +75,13 @@ body {
     background-color: #FFFF00;
     height: 100%;
     width: 80%;
-    margin: 0px 10%;
+    margin: 30px 10%;
+    border-radius: 10px;
     display: table;
 }
 
 .articlebox {
-
+    margin: 10px;
 }
 
 .titlebox {
