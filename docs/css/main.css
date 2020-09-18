@@ -94,7 +94,6 @@ body {
     width: 80%;
     margin: 30px 10%;
     border-radius: 10px;
-    display: table;
 }
 
 .articlebox {
@@ -102,7 +101,6 @@ body {
     width: auto;
     margin: 10px;
     border-radius: 10px;
-    display: table;
 }
 
 .titlebox {
