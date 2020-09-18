@@ -45,7 +45,6 @@ body {
 
 .menubutton {
     margin: 5px;
-    padding: 0px 3px;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     color: #FFFFFF;
@@ -68,11 +67,29 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 20px;
-    margin: 2px;
+    margin: 2px 3px;
 }
 
 .articles {
-    background-color: #FFFF00;
+    background-color: #00FFFF;
+    /*
+    202225
+    292B2F
+    36393F
+    4F5660
+    677BC4 Contrast Blurple
+    6A7480 Grey
+    7289DA
+    747F8D
+    C7CCD1
+    C7D0F0
+    DCDDDE
+    E3E5E8
+    E3E7F8
+    EBEDEF
+    F2F3F5
+    F8F9F9
+    */
     height: 100%;
     width: 80%;
     margin: 30px 10%;
@@ -81,31 +98,49 @@ body {
 }
 
 .articlebox {
+    background-color: #FFFF00;
+    width: auto;
     margin: 10px;
+    border-radius: 10px;
+    display: table;
 }
 
 .titlebox {
-
+    margin: 10px;
+    border-bottom: 1px solid #000000;
 }
 
 .title {
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 27;
+    margin: 0;
 }
 
 .textbody {
-
+    background-color: #FF00FF;
+    margin: 10px;
 }
 
 .paragraph {
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18;
+    margin: 0;
 }
 
 .quote {
-
+    font-family: 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 20;
+    margin: 0;
 }
 
 .section1 {
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24;
+    margin: 0;
 }
 
 .section2 {
